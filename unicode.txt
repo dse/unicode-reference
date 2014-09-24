@@ -1,0 +1,634 @@
+@section HTML Entities
+
+ampersand
+less-than sign
+greater-than sign
+quotation mark		# This is the symbol you would type on a keyboard.
+apostrophe		# This is the symbol you would type on a keyboard.
+
+@section Typographic Symbols
+
+&lsquo;			#HTML: &lsquo; vs. '
+&rsquo;			#HTML: &rsquo; vs. '
+&ldquo;			#HTML: &ldquo; vs. "
+&rdquo;			#HTML: &rdquo; vs. "
+&Prime;			#HTML: inches. &mdash; 11&Prime; vs. 11"
+&prime;			#HTML: feet. &mdash; 15&prime; vs. 15'
+&reg;			# While this symbol is not raised on its own, is <sup>&reg;</sup> not overkill?
+&trade;
+&copy;
+&ndash;			#HTML: numeric ranges and similar purposes.<br /><nobr>&ldquo;I&rsquo;ll be back in 15&ndash;30 minutes&rdquo;</nobr> vs.<br /><nobr>&ldquo;15-30 minutes&rdquo;</nobr>
+&mdash;			#HTML: sentence interruptions and similar purposes.<br />en dash with &amp;nbsp; before and space after is also acceptable.
+
+@section Mathematical Symbols
+
+multiplication sign	#HTML: <nobr>&ldquo;3&times;5 index card&rdquo;</nobr> vs.<br /><nobr>&ldquo;3x5 index card&rdquo;</nobr>
+minus sign		#HTML: <nobr>&ldquo;5 &minus; 2 = 3&rdquo;</nobr> vs.<br /><nobr>&ldquo;5 - 2 = 3&rdquo;</nobr> (the minus sign you would normally type on a keyboard) vs.<br /><nobr>&ldquo;5 &ndash; 2 = 3&rdquo;</nobr> (en dash)
+division sign
+plus-minus sign
+&ne;
+&le;
+&ge;
+
+@section Graphic Symbols
+
+&uarr;
+&rarr;
+&darr;
+&larr;
+
+@section Spaces
+
+space
+&nbsp;
+en space
+em space
+three-per-em space
+four-per-em space
+six-per-em space
+figure space
+punctuation space
+thin space
+hair space
+zero width space
+narrow no-break space
+medium mathematical space
+symbol for space
+
+@section Dashes
+
+hyphen-minus
+soft hyphen
+hyphen
+non-breaking hyphen
+en dash
+em dash
+figure dash
+hyphen bullet
+
+@section HTML:&bull; Bullets &bull;
+
+bullet
+triangular bullet
+hyphen bullet
+bullet operator
+white bullet
+
+@section HTML:&hearts; Hearts &hearts;
+
+WHITE HEART SUIT
+BLACK HEART SUIT
+HEAVY HEART EXCLAMATION MARK ORNAMENT
+HEAVY BLACK HEART
+ROTATED HEAVY BLACK HEART BULLET
+FLORAL HEART
+ROTATED FLORAL HEART BULLET
+
+@section Suits
+
+BLACK CLUB SUIT
+BLACK DIAMOND SUIT
+BLACK HEART SUIT
+BLACK SPADE SUIT
+
+WHITE CLUB SUIT
+WHITE DIAMOND SUIT
+WHITE HEART SUIT
+WHITE SPADE SUIT
+
+@section The Ballot
+
+U+2610  	    9744	☐	&#x2610;       	BALLOT BOX
+U+2611  	    9745	☑	&#x2611;       	BALLOT BOX WITH CHECK
+U+2612  	    9746	☒	&#x2612;       	BALLOT BOX WITH X
+U+2713  	   10003	✓	&#x2713;       	CHECK MARK
+U+2714  	   10004	✔	&#x2714;       	HEAVY CHECK MARK
+U+2717  	   10007	✗	&#x2717;       	BALLOT X
+U+2718  	   10008	✘	&#x2718;       	HEAVY BALLOT X
+
+@section Superscripts
+
+U+2070  	    8304	⁰	&#x2070;       	SUPERSCRIPT ZERO
+U+00B9  	     185	¹	&sup1;         	SUPERSCRIPT ONE
+U+00B2  	     178	²	&sup2;         	SUPERSCRIPT TWO
+U+00B3  	     179	³	&sup3;         	SUPERSCRIPT THREE
+U+2074  	    8308	⁴	&#x2074;       	SUPERSCRIPT FOUR
+U+2075  	    8309	⁵	&#x2075;       	SUPERSCRIPT FIVE
+U+2076  	    8310	⁶	&#x2076;       	SUPERSCRIPT SIX
+U+2077  	    8311	⁷	&#x2077;       	SUPERSCRIPT SEVEN
+U+2078  	    8312	⁸	&#x2078;       	SUPERSCRIPT EIGHT
+U+2079  	    8313	⁹	&#x2079;       	SUPERSCRIPT NINE
+
+U+207A  	    8314	⁺	&#x207A;       	SUPERSCRIPT PLUS SIGN
+U+207B  	    8315	⁻	&#x207B;       	SUPERSCRIPT MINUS
+U+207C  	    8316	⁼	&#x207C;       	SUPERSCRIPT EQUALS SIGN
+U+207D  	    8317	⁽	&#x207D;       	SUPERSCRIPT LEFT PARENTHESIS
+U+207E  	    8318	⁾	&#x207E;       	SUPERSCRIPT RIGHT PARENTHESIS
+U+207F  	    8319	ⁿ	&#x207F;       	SUPERSCRIPT LATIN SMALL LETTER N
+
+@section Subscripts
+
+U+2080  	    8320	₀	&#x2080;       	SUBSCRIPT ZERO
+U+2081  	    8321	₁	&#x2081;       	SUBSCRIPT ONE
+U+2082  	    8322	₂	&#x2082;       	SUBSCRIPT TWO
+U+2083  	    8323	₃	&#x2083;       	SUBSCRIPT THREE
+U+2084  	    8324	₄	&#x2084;       	SUBSCRIPT FOUR
+U+2085  	    8325	₅	&#x2085;       	SUBSCRIPT FIVE
+U+2086  	    8326	₆	&#x2086;       	SUBSCRIPT SIX
+U+2087  	    8327	₇	&#x2087;       	SUBSCRIPT SEVEN
+U+2088  	    8328	₈	&#x2088;       	SUBSCRIPT EIGHT
+U+2089  	    8329	₉	&#x2089;       	SUBSCRIPT NINE
+
+U+208A  	    8330	₊	&#x208A;       	SUBSCRIPT PLUS SIGN
+U+208B  	    8331	₋	&#x208B;       	SUBSCRIPT MINUS
+U+208C  	    8332	₌	&#x208C;       	SUBSCRIPT EQUALS SIGN
+U+208D  	    8333	₍	&#x208D;       	SUBSCRIPT LEFT PARENTHESIS
+U+208E  	    8334	₎	&#x208E;       	SUBSCRIPT RIGHT PARENTHESIS
+
+U+2099  	    8345	ₙ	&#x2099;       	LATIN SUBSCRIPT SMALL LETTER N
+
+@section Fun
+
+snowman
+hammer and sickle
+white smiling face
+black smiling face
+white frowning face
+
+@section Emoji
+
+pile of poo
+
+@section Code Page 437
+
+U+263A
+U+263B
+U+2665
+U+2666
+U+2663
+U+2660
+U+2022
+U+25D8
+U+25CB
+U+25D9
+U+2642
+U+2640
+U+266A
+U+266C
+U+263C
+-
+U+25BA
+U+25C4
+U+2195
+U+203C
+U+00B6
+U+00A7
+U+25AC
+U+21A8
+U+2191
+U+2193
+U+2192
+U+2190
+U+221F
+U+2194
+U+25B2
+U+25BC
+-
+U+2302
+-
+U+00C7
+U+00FC
+U+00E9
+U+00E2
+U+00E4
+U+00E0
+U+00E5
+U+00E7
+U+00EA
+U+00EB
+U+00E8
+U+00EF
+U+00EE
+U+00EC
+U+00C4
+U+00C5
+-
+U+00C9
+U+00E6
+U+00C6
+U+00F4
+U+00F6
+U+00F2
+U+00FB
+U+00F9
+U+00FF
+U+00D6
+U+00DC
+U+00A2
+U+00A3
+U+00A5
+U+20A7
+U+0192
+-
+U+00E1
+U+00ED
+U+00F3
+U+00FA
+U+00F1
+U+00D1
+U+00AA
+U+00BA
+U+00BF
+U+2310
+U+00AC
+U+00BD
+U+00BC
+U+00A1
+U+00AB
+U+00BB
+-
+U+2591
+U+2592
+U+2593
+U+2502
+U+2524
+U+2561
+U+2562
+U+2556
+U+2555
+U+2563
+U+2551
+U+2557
+U+255D
+U+255C
+U+255B
+U+2510
+-
+U+2514
+U+2534
+U+252C
+U+251C
+U+2500
+U+253C
+U+255E
+U+255F
+U+255A
+U+2554
+U+2569
+U+2566
+U+2560
+U+2550
+U+256C
+U+2567
+-
+U+2568
+U+2564
+U+2565
+U+2559
+U+2558
+U+2552
+U+2553
+U+256B
+U+256A
+U+2518
+U+250C
+U+2588
+U+2584
+U+258C
+U+2590
+U+2580
+-
+U+03B1
+U+00DF
+U+0393
+U+03C0
+U+03A3
+U+03C3
+U+00B5
+U+03C4
+U+03A6
+U+0398
+U+03A9
+U+03B4
+U+221E
+U+03C6
+U+03B5
+U+2229
+-
+U+2261
+U+00B1
+U+2265
+U+2264
+U+2320
+U+2321
+U+00F7
+U+2248
+U+00B0
+U+2219
+U+00B7
+U+221A
+U+207F
+U+00B2
+U+25A0
+U+00A0
+
+@section Windows-1252-isms
+
+U+20AC
+U+201A
+U+0192
+U+201E
+U+2026
+U+2020
+U+2021
+U+02C6
+U+2030
+U+0160
+U+2039
+U+0152
+U+017D
+-
+U+2018
+U+2019
+U+201C
+U+201D
+U+2022
+U+2013
+U+2014
+U+02DC
+U+2122
+U+0161
+U+203A
+U+0153
+U+017E
+U+0178
+
+@section Named HTML Entities
+
+&quot;
+&amp;
+&apos;
+&lt;
+&gt;
+&nbsp;
+&iexcl;
+&cent;
+&pound;
+&curren;
+&yen;
+&brvbar;
+&sect;
+&uml;
+&copy;
+&ordf;
+&laquo;
+&not;
+&shy;
+&reg;
+&macr;
+-
+&deg;
+&plusmn;
+&sup2;
+&sup3;
+&acute;
+&micro;
+&para;
+&middot;
+&cedil;
+&sup1;
+&ordm;
+&raquo;
+&frac14;
+&frac12;
+&frac34;
+&iquest;
+-
+&Agrave;
+&Aacute;
+&Acirc;
+&Atilde;
+&Auml;
+&Aring;
+&AElig;
+&Ccedil;
+&Egrave;
+&Eacute;
+&Ecirc;
+&Euml;
+&Igrave;
+&Iacute;
+&Icirc;
+&Iuml;
+&ETH;
+&Ntilde;
+&Ograve;
+&Oacute;
+&Ocirc;
+&Otilde;
+&Ouml;
+&times;
+&Oslash;
+&Ugrave;
+&Uacute;
+&Ucirc;
+&Uuml;
+&Yacute;
+&THORN;
+-
+&szlig;
+&agrave;
+&aacute;
+&acirc;
+&atilde;
+&auml;
+&aring;
+&aelig;
+&ccedil;
+&egrave;
+&eacute;
+&ecirc;
+&euml;
+&igrave;
+&iacute;
+&icirc;
+&iuml;
+&eth;
+&ntilde;
+&ograve;
+&oacute;
+&ocirc;
+&otilde;
+&ouml;
+&divide;
+&oslash;
+&ugrave;
+&uacute;
+&ucirc;
+&uuml;
+&yacute;
+&thorn;
+&yuml;
+-
+&OElig;
+&oelig;
+&Scaron;
+&scaron;
+&Yuml;
+&fnof;
+&circ;
+&tilde;
+-
+&Alpha;
+&Beta;
+&Gamma;
+&Delta;
+&Epsilon;
+&Zeta;
+&Eta;
+&Theta;
+&Iota;
+&Kappa;
+&Lambda;
+&Mu;
+&Nu;
+&Xi;
+&Omicron;
+&Pi;
+&Rho;
+&Sigma;
+&Tau;
+&Upsilon;
+&Phi;
+&Chi;
+&Psi;
+&Omega;
+-
+&alpha;
+&beta;
+&gamma;
+&delta;
+&epsilon;
+&zeta;
+&eta;
+&theta;
+&iota;
+&kappa;
+&lambda;
+&mu;
+&nu;
+&xi;
+&omicron;
+&pi;
+&rho;
+&sigmaf;
+&sigma;
+&tau;
+&upsilon;
+&phi;
+&chi;
+&psi;
+&omega;
+-
+&thetasym;
+&upsih;
+&piv;
+-
+&ensp;
+&emsp;
+&thinsp;
+&zwnj;
+&zwj;
+&lrm;
+&rlm;
+&ndash;
+&mdash;
+-
+&lsquo;
+&rsquo;
+&sbquo;
+&ldquo;
+&rdquo;
+&bdquo;
+&dagger;
+&Dagger;
+&bull;
+&hellip;
+&permil;
+&prime;
+&Prime;
+&lsaquo;
+&rsaquo;
+&oline;
+&frasl;
+&euro;
+&image;
+&weierp;
+&real;
+&trade;
+&alefsym;
+-
+&larr;
+&uarr;
+&rarr;
+&darr;
+&harr;
+&crarr;
+&lArr;
+&uArr;
+&rArr;
+&dArr;
+&hArr;
+-
+&forall;
+&part;
+&exist;
+&empty;
+&nabla;
+&isin;
+&notin;
+&ni;
+&prod;
+&sum;
+&minus;
+&lowast;
+&radic;
+&prop;
+&infin;
+&ang;
+&and;
+&or;
+&cap;
+&cup;
+&int;
+&there4;
+&sim;
+&cong;
+&asymp;
+&ne;
+&equiv;
+&le;
+&ge;
+&sub;
+&sup;
+&nsub;
+&sube;
+&supe;
+&oplus;
+&otimes;
+&perp;
+&sdot;
+-
+&vellip;
+&lceil;
+&rceil;
+&lfloor;
+&rfloor;
+&lang;
+&rang;
+&loz;
+&spades;
+&clubs;
+&hearts;
+&diams;
+
