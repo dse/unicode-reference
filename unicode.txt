@@ -8,17 +8,92 @@ apostrophe		# This is the symbol you would type on a keyboard.
 
 @section Typographic Symbols
 
+@pair
 &lsquo;			#HTML: &lsquo; vs. '
 &rsquo;			#HTML: &rsquo; vs. '
+
+@pair
 &ldquo;			#HTML: &ldquo; vs. "
 &rdquo;			#HTML: &rdquo; vs. "
+
+@pair
 &Prime;			#HTML: inches. &mdash; 11&Prime; vs. 11"
 &prime;			#HTML: feet. &mdash; 15&prime; vs. 15'
+
+@pair
+&ndash;			#HTML: numeric ranges and similar purposes.<br /><nobr>&ldquo;I&rsquo;ll be back in 15&ndash;30 minutes&rdquo;</nobr> vs.<br /><nobr>&ldquo;15-30 minutes&rdquo;</nobr>
+&mdash;			#HTML: sentence interruptions and similar purposes.<br />en dash with &amp;nbsp; before and space after is also acceptable.
+
 &reg;			# While this symbol is not raised on its own, is <sup>&reg;</sup> not overkill?
 &trade;
 &copy;
-&ndash;			#HTML: numeric ranges and similar purposes.<br /><nobr>&ldquo;I&rsquo;ll be back in 15&ndash;30 minutes&rdquo;</nobr> vs.<br /><nobr>&ldquo;15-30 minutes&rdquo;</nobr>
-&mdash;			#HTML: sentence interruptions and similar purposes.<br />en dash with &amp;nbsp; before and space after is also acceptable.
+
+DAGGER
+DOUBLE DAGGER
+
+HORIZONTAL ELLIPSIS
+DEGREE SIGN
+INVERTED EXCLAMATION MARK
+INVERTED QUESTION MARK
+SERVICE MARK
+EURO SIGN
+
+LATIN SMALL LIGATURE FF
+LATIN SMALL LIGATURE FI
+LATIN SMALL LIGATURE FL
+LATIN SMALL LIGATURE FFI
+LATIN SMALL LIGATURE FFL
+
+asterism		# dividing subchapters; minor breaks in long text
+interrobang
+U+061F			# irony mark
+U+2E2E			# percontation point; rhetorical question mark
+
+place of interest sign	# 
+option key		
+upwards white arrow	# shift
+infinity
+section sign
+pilcrow sign
+
+@section Quotation Marks
+
+@pair
+U+00AB  	     171	«	&laquo;        	LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
+U+00BB  	     187	»	&raquo;        	RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK
+@pair
+U+2018  	    8216	‘	&lsquo;        	LEFT SINGLE QUOTATION MARK
+U+2019  	    8217	’	&rsquo;        	RIGHT SINGLE QUOTATION MARK
+@pair
+U+201C  	    8220	“	&ldquo;        	LEFT DOUBLE QUOTATION MARK
+U+201D  	    8221	”	&rdquo;        	RIGHT DOUBLE QUOTATION MARK
+@pair
+U+201A  	    8218	‚	&sbquo;        	SINGLE LOW-9 QUOTATION MARK
+U+201B  	    8219	‛	&#x201B;       	SINGLE HIGH-REVERSED-9 QUOTATION MARK
+@pair
+U+201E  	    8222	„	&bdquo;        	DOUBLE LOW-9 QUOTATION MARK
+U+201F  	    8223	‟	&#x201F;       	DOUBLE HIGH-REVERSED-9 QUOTATION MARK
+@pair
+U+2039  	    8249	‹	&lsaquo;       	SINGLE LEFT-POINTING ANGLE QUOTATION MARK
+U+203A  	    8250	›	&rsaquo;       	SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
+@pair
+U+275B  	   10075	❛	&#x275B;       	HEAVY SINGLE TURNED COMMA QUOTATION MARK ORNAMENT
+U+275C  	   10076	❜	&#x275C;       	HEAVY SINGLE COMMA QUOTATION MARK ORNAMENT
+@pair
+U+275D  	   10077	❝	&#x275D;       	HEAVY DOUBLE TURNED COMMA QUOTATION MARK ORNAMENT
+U+275E  	   10078	❞	&#x275E;       	HEAVY DOUBLE COMMA QUOTATION MARK ORNAMENT
+
+#@pair
+#U+275F  	   10079	❟	&#x275F;       	HEAVY LOW SINGLE COMMA QUOTATION MARK ORNAMENT
+#U+2760  	   10080	❠	&#x2760;       	HEAVY LOW DOUBLE COMMA QUOTATION MARK ORNAMENT
+#@pair
+#U+276E  	   10094	❮	&#x276E;       	HEAVY LEFT-POINTING ANGLE QUOTATION MARK ORNAMENT
+#U+276F  	   10095	❯	&#x276F;       	HEAVY RIGHT-POINTING ANGLE QUOTATION MARK ORNAMENT
+
+@section Footnote Symbols
+
+U+2020  	    8224	†	&dagger;       	DAGGER
+U+2021  	    8225	‡	&Dagger;       	DOUBLE DAGGER
 
 @section Mathematical Symbols
 
@@ -29,6 +104,7 @@ plus-minus sign
 &ne;
 &le;
 &ge;
+bullet operator
 
 @section Graphic Symbols
 
@@ -65,13 +141,13 @@ en dash
 em dash
 figure dash
 hyphen bullet
+minus sign
 
 @section HTML:&bull; Bullets &bull;
 
 bullet
 triangular bullet
 hyphen bullet
-bullet operator
 white bullet
 
 @section HTML:&hearts; Hearts &hearts;
@@ -154,6 +230,11 @@ hammer and sickle
 white smiling face
 black smiling face
 white frowning face
+black florette
+victory hand
+skull and crossbones
+卐			#swastika
+卍			#swastika
 
 @section Emoji
 
