@@ -7,6 +7,7 @@ use Unicode::UCD qw(charinfo);
 use charnames qw();
 use Text::Iconv;
 use Encode;
+use open ":encoding(utf8)";
 
 my $table;
 
@@ -62,11 +63,9 @@ while (<>) {
     s{^\s+}{};
     s{\s+$}{};
     s{\s+}{ }g;
-
     if (s{(^|\s+)\#+\s*(.*?)\s*$}{}) {
 	$comment = $2;
     }
-
     if (m{^\s*U\+([0-9A-Fa-f]+)}i) {
 	if (!hexadecimal_codepoint($1, $comment)) {
 	}
@@ -86,7 +85,11 @@ while (<>) {
     elsif (m{^\s*-+\s*$}) {
 	section("-");
     }
+    elsif (length($_) == 1) {
+	character($_);
+    }
     else {
+	warn(length($_));
 	warn("No match for '$_'\n");
     }
 }
